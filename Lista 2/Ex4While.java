@@ -30,10 +30,10 @@ public class Ex4While {
 			 if (sexo == 3 && temperamento == 1) {
 				 outrosCalm++;
 			 }
-			 if (idade >= 40 && temperamento == 2) {
+			 if (idade > 40 && temperamento == 2) {
 				 pessoaNerv++;
 			 }
-			 if (idade >18 && temperamento == 1) {
+			 if (idade <18 && temperamento == 1) {
 				 pessoaCalm++;
 			 }
 			 
