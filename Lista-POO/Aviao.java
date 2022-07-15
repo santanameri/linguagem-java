@@ -6,19 +6,15 @@ public class Aviao {
 	String tipoVoo;
 	String fabricante;
 	String rotaVoo;
-	boolean voando;
 	
 	public void voar ()
 	{
-	if (this.voando == true)
-		System.out.println("O avião está no ar!");
-	else 
-		System.out.println("O avião ainda não decolou!");
+		System.out.println("O avião decolou!");
 	}
 	
 	public void pousar()
 	{
-		this.voando = false;
+		System.out.println("O avião pousou!");
 	}
 	
 	public void estado ()

@@ -5,14 +5,10 @@ public class Cliente {
 	String nome;
 	String genero;
 	String dataNasc;
-	boolean pagou;
 	
 	public void pagar ()
 	{
-		if (this.pagou == true)
-			System.out.println("O cliente efetuou o pagamento!");
-		else
-			System.out.println("O cliente ainda não efetuou o pagamento.");
+		System.out.println("O cliente efetuou o pagamento");
 	}
 
 	public void estado() {
